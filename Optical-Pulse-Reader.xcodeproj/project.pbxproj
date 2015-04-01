@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69838B31ACB6A280089483B /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69838B21ACB6A280089483B /* GPUImage.framework */; };
+		D6B6FA3E1ACB617D00FED3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6FA3D1ACB617D00FED3A2 /* main.m */; };
+		D6B6FA411ACB617D00FED3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6FA401ACB617D00FED3A2 /* AppDelegate.m */; };
+		D6B6FA441ACB617D00FED3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6FA431ACB617D00FED3A2 /* ViewController.m */; };
+		D6B6FA471ACB617D00FED3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B6FA451ACB617D00FED3A2 /* Main.storyboard */; };
+		D6B6FA491ACB617D00FED3A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B6FA481ACB617D00FED3A2 /* Images.xcassets */; };
+		D6B6FA4C1ACB617D00FED3A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B6FA4A1ACB617D00FED3A2 /* LaunchScreen.xib */; };
+		D6B6FA581ACB617E00FED3A2 /* Optical_Pulse_ReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6FA571ACB617E00FED3A2 /* Optical_Pulse_ReaderTests.m */; };
+		D6B6FA781ACB62AE00FED3A2 /* MonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6FA771ACB62AE00FED3A2 /* MonitorController.m */; };
+		D6B6FA831ACB668500FED3A2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6FA821ACB668500FED3A2 /* CoreMedia.framework */; };
+		D6B6FA851ACB668C00FED3A2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6FA841ACB668C00FED3A2 /* CoreVideo.framework */; };
+		D6B6FA871ACB669300FED3A2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6FA861ACB669300FED3A2 /* OpenGLES.framework */; };
+		D6B6FA891ACB669900FED3A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6FA881ACB669900FED3A2 /* AVFoundation.framework */; };
+		D6B6FA8B1ACB66A000FED3A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B6FA8A1ACB66A000FED3A2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B6FA521ACB617E00FED3A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B6FA301ACB617D00FED3A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B6FA371ACB617D00FED3A2;
+			remoteInfo = "Optical-Pulse-Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69838B21ACB6A280089483B /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+		D6B6FA381ACB617D00FED3A2 /* Optical-Pulse-Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optical-Pulse-Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B6FA3C1ACB617D00FED3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B6FA3D1ACB617D00FED3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6B6FA3F1ACB617D00FED3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6B6FA401ACB617D00FED3A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6B6FA421ACB617D00FED3A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6B6FA431ACB617D00FED3A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6B6FA461ACB617D00FED3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B6FA481ACB617D00FED3A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6B6FA4B1ACB617D00FED3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6B6FA511ACB617E00FED3A2 /* Optical-Pulse-ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optical-Pulse-ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B6FA561ACB617E00FED3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B6FA571ACB617E00FED3A2 /* Optical_Pulse_ReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Optical_Pulse_ReaderTests.m; sourceTree = "<group>"; };
+		D6B6FA761ACB62AE00FED3A2 /* MonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorController.h; sourceTree = "<group>"; };
+		D6B6FA771ACB62AE00FED3A2 /* MonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorController.m; sourceTree = "<group>"; };
+		D6B6FA7D1ACB659600FED3A2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D6B6FA821ACB668500FED3A2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D6B6FA841ACB668C00FED3A2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D6B6FA861ACB669300FED3A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D6B6FA881ACB669900FED3A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D6B6FA8A1ACB66A000FED3A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B6FA351ACB617D00FED3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6FA8B1ACB66A000FED3A2 /* QuartzCore.framework in Frameworks */,
+				D6B6FA891ACB669900FED3A2 /* AVFoundation.framework in Frameworks */,
+				D6B6FA871ACB669300FED3A2 /* OpenGLES.framework in Frameworks */,
+				D6B6FA851ACB668C00FED3A2 /* CoreVideo.framework in Frameworks */,
+				D6B6FA831ACB668500FED3A2 /* CoreMedia.framework in Frameworks */,
+				D69838B31ACB6A280089483B /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B6FA4E1ACB617E00FED3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6B6FA2F1ACB617D00FED3A2 = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA7B1ACB63E500FED3A2 /* Framework */,
+				D6B6FA3A1ACB617D00FED3A2 /* Optical-Pulse-Reader */,
+				D6B6FA541ACB617E00FED3A2 /* Optical-Pulse-ReaderTests */,
+				D6B6FA391ACB617D00FED3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B6FA391ACB617D00FED3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA381ACB617D00FED3A2 /* Optical-Pulse-Reader.app */,
+				D6B6FA511ACB617E00FED3A2 /* Optical-Pulse-ReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B6FA3A1ACB617D00FED3A2 /* Optical-Pulse-Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA761ACB62AE00FED3A2 /* MonitorController.h */,
+				D6B6FA771ACB62AE00FED3A2 /* MonitorController.m */,
+				D6B6FA3F1ACB617D00FED3A2 /* AppDelegate.h */,
+				D6B6FA401ACB617D00FED3A2 /* AppDelegate.m */,
+				D6B6FA421ACB617D00FED3A2 /* ViewController.h */,
+				D6B6FA431ACB617D00FED3A2 /* ViewController.m */,
+				D6B6FA451ACB617D00FED3A2 /* Main.storyboard */,
+				D6B6FA481ACB617D00FED3A2 /* Images.xcassets */,
+				D6B6FA4A1ACB617D00FED3A2 /* LaunchScreen.xib */,
+				D6B6FA3B1ACB617D00FED3A2 /* Supporting Files */,
+			);
+			path = "Optical-Pulse-Reader";
+			sourceTree = "<group>";
+		};
+		D6B6FA3B1ACB617D00FED3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA3C1ACB617D00FED3A2 /* Info.plist */,
+				D6B6FA3D1ACB617D00FED3A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B6FA541ACB617E00FED3A2 /* Optical-Pulse-ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA571ACB617E00FED3A2 /* Optical_Pulse_ReaderTests.m */,
+				D6B6FA551ACB617E00FED3A2 /* Supporting Files */,
+			);
+			path = "Optical-Pulse-ReaderTests";
+			sourceTree = "<group>";
+		};
+		D6B6FA551ACB617E00FED3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6FA561ACB617E00FED3A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B6FA7B1ACB63E500FED3A2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D69838B21ACB6A280089483B /* GPUImage.framework */,
+				D6B6FA8A1ACB66A000FED3A2 /* QuartzCore.framework */,
+				D6B6FA881ACB669900FED3A2 /* AVFoundation.framework */,
+				D6B6FA861ACB669300FED3A2 /* OpenGLES.framework */,
+				D6B6FA841ACB668C00FED3A2 /* CoreVideo.framework */,
+				D6B6FA821ACB668500FED3A2 /* CoreMedia.framework */,
+				D6B6FA7D1ACB659600FED3A2 /* CoreImage.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B6FA371ACB617D00FED3A2 /* Optical-Pulse-Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B6FA5B1ACB617E00FED3A2 /* Build configuration list for PBXNativeTarget "Optical-Pulse-Reader" */;
+			buildPhases = (
+				D6B6FA341ACB617D00FED3A2 /* Sources */,
+				D6B6FA351ACB617D00FED3A2 /* Frameworks */,
+				D6B6FA361ACB617D00FED3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Optical-Pulse-Reader";
+			productName = "Optical-Pulse-Reader";
+			productReference = D6B6FA381ACB617D00FED3A2 /* Optical-Pulse-Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6B6FA501ACB617E00FED3A2 /* Optical-Pulse-ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B6FA5E1ACB617E00FED3A2 /* Build configuration list for PBXNativeTarget "Optical-Pulse-ReaderTests" */;
+			buildPhases = (
+				D6B6FA4D1ACB617E00FED3A2 /* Sources */,
+				D6B6FA4E1ACB617E00FED3A2 /* Frameworks */,
+				D6B6FA4F1ACB617E00FED3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B6FA531ACB617E00FED3A2 /* PBXTargetDependency */,
+			);
+			name = "Optical-Pulse-ReaderTests";
+			productName = "Optical-Pulse-ReaderTests";
+			productReference = D6B6FA511ACB617E00FED3A2 /* Optical-Pulse-ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B6FA301ACB617D00FED3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Baby Carrot Productions";
+				TargetAttributes = {
+					D6B6FA371ACB617D00FED3A2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D6B6FA501ACB617E00FED3A2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D6B6FA371ACB617D00FED3A2;
+					};
+				};
+			};
+			buildConfigurationList = D6B6FA331ACB617D00FED3A2 /* Build configuration list for PBXProject "Optical-Pulse-Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B6FA2F1ACB617D00FED3A2;
+			productRefGroup = D6B6FA391ACB617D00FED3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B6FA371ACB617D00FED3A2 /* Optical-Pulse-Reader */,
+				D6B6FA501ACB617E00FED3A2 /* Optical-Pulse-ReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B6FA361ACB617D00FED3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6FA471ACB617D00FED3A2 /* Main.storyboard in Resources */,
+				D6B6FA4C1ACB617D00FED3A2 /* LaunchScreen.xib in Resources */,
+				D6B6FA491ACB617D00FED3A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B6FA4F1ACB617E00FED3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B6FA341ACB617D00FED3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6FA441ACB617D00FED3A2 /* ViewController.m in Sources */,
+				D6B6FA411ACB617D00FED3A2 /* AppDelegate.m in Sources */,
+				D6B6FA781ACB62AE00FED3A2 /* MonitorController.m in Sources */,
+				D6B6FA3E1ACB617D00FED3A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B6FA4D1ACB617E00FED3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6FA581ACB617E00FED3A2 /* Optical_Pulse_ReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6B6FA531ACB617E00FED3A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B6FA371ACB617D00FED3A2 /* Optical-Pulse-Reader */;
+			targetProxy = D6B6FA521ACB617E00FED3A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6B6FA451ACB617D00FED3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B6FA461ACB617D00FED3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B6FA4A1ACB617D00FED3A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B6FA4B1ACB617D00FED3A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B6FA591ACB617E00FED3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6B6FA5A1ACB617E00FED3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B6FA5C1ACB617E00FED3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Optical-Pulse-Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6B6FA5D1ACB617E00FED3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Optical-Pulse-Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6B6FA5F1ACB617E00FED3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Optical-Pulse-ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optical-Pulse-Reader.app/Optical-Pulse-Reader";
+			};
+			name = Debug;
+		};
+		D6B6FA601ACB617E00FED3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Optical-Pulse-ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optical-Pulse-Reader.app/Optical-Pulse-Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B6FA331ACB617D00FED3A2 /* Build configuration list for PBXProject "Optical-Pulse-Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B6FA591ACB617E00FED3A2 /* Debug */,
+				D6B6FA5A1ACB617E00FED3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B6FA5B1ACB617E00FED3A2 /* Build configuration list for PBXNativeTarget "Optical-Pulse-Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B6FA5C1ACB617E00FED3A2 /* Debug */,
+				D6B6FA5D1ACB617E00FED3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B6FA5E1ACB617E00FED3A2 /* Build configuration list for PBXNativeTarget "Optical-Pulse-ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B6FA5F1ACB617E00FED3A2 /* Debug */,
+				D6B6FA601ACB617E00FED3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B6FA301ACB617D00FED3A2 /* Project object */;
+}
